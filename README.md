@@ -166,6 +166,4 @@
 
 
     </p>
-         </center>      
-</body>
-</html>
+         </center>
