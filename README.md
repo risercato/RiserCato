@@ -60,16 +60,16 @@
 
 
 </style>
-<body style="background-color: 47B5FF;" >
+<body style="background-color: #47B5FF;" >
   <div>
       <center>
         <h1 id="riser" >
         ریزر کیتو
       </h1>
     </center>
-      <h2>
+      <h2 id="bold" >
         <center>
-          <p id="bold" >
+          <p>
                   داستانی که هرگز از آن نامی برده نشد
 
           </p></center>
@@ -166,8 +166,6 @@
 
 
     </p>
-         </center>
-      
-      
+         </center>      
 </body>
 </html>
