@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Button Glow</title>
+  <title>RiserCato</title>
   <link rel="stylesheet" href="./style.css">
    <style>
     @import url("https://fonts.googleapis.com/css?family=Raleway");
