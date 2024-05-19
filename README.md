@@ -1,112 +1,176 @@
-<html lang="en">
+<html lang="en" dir="rtl" >
+  
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risercato</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Satisfy&display=swap');
-      
-      
-      #but{
-        font-family: jaro;
-        padding: 20px;
-        margin: 2%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        color: rgb(255, 255, 255);
-        background-color: #156;
-        border: none;
-        border-radius: 5px 10px 10px 10px;
-        font-size: 20px;
-        text-shadow: #1566;
-        animation-name: test2;
-        animation-duration: 3S;
-        
-       
-        }
-        @keyframes test2 {
-          from {
-            filter: blur(100px);
-            color: #156;
-          }
-          to {
-            filter: blur(0px);
-            color: aliceblue;
-          }
-        }
-      
-      #elem{
-        background-color: black;
-        border-radius: 10px;
-        animation-name: test;
-        animation-duration: 5s;}
-
-        @keyframes test {
-          from {
-            background-color : #156 ;
-          }
-          to {
-            background-color : black ;
-          }
-        
-        }
-        #spa{
-          margin-left: 10px;
-          padding: 6px;
-          margin-left: 10px;
-          margin-top: 10px;
-          padding: 10px;
-
-        }
-        #grt{
-          background-color: blanchedalmond;
-          padding: 10px;
-          font-family: Satisfy;
-          border-radius: 10px 10px 0px 0px;
-          padding: 10px;
-          animation-name: riser;
-          animation-duration: 2s;
-          
-        }
-        @keyframes riser {
-          from{
-            scale: 0%;
-          }
-          to {
-            scale: 100%;
-          }
-          
-        }
-      
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risercato</title>
 </head>
-<body style="background-color: #156;">
-  <div id="elem" >
-    
-    <center>
-      <button id="but" >Riser</button>
-      <button id="but" >zahra</button>
-      <button id="but" >FZ</button>
+<style>
+       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Satisfy&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Megrim&family=Satisfy&family=Wire+One&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Megrim&family=Noto+Nastaliq+Urdu:wght@400..700&family=Satisfy&family=Wire+One&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Megrim&family=Noto+Nastaliq+Urdu:wght@400..700&family=Reem+Kufi+Fun:wght@400..700&family=Satisfy&family=Wire+One&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Megrim&family=Noto+Nastaliq+Urdu:wght@400..700&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi+Ink&family=Satisfy&family=Wire+One&display=swap');
+
+
+
+#riser{
+  
+  font-family: Alkalami;
+  background-color: #DFF6FF;
+  padding: 20px;
+  color: #256D85;
+  margin-bottom: -20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 30px 30px 0px 0px ;
+  animation-name: topop;
+  animation-duration: 2s;
+
+}
+@keyframes topop {
+  from{
+    filter: blur(100%);
+  }
+  to{
+    filter: blur(0%);
+  }
+ }
+
+
+#bold{
+  font-family: Reem Kufi Fun
+;
+  color: 0A4D68;
+  font-size: 20px;
+  background-color: #DFF6FF;
+  padding: 20px;
+  margin-bottom: -22px;
+  border-radius: 0px 0px 0px 0px ;
+
+}
+
+#farsi{
+  font-family: Noto Nastaliq Urdu;
+  background-color: #06283D;
+  color: #DFF6FF;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+
+</style>
+<body style="background-color: 47B5FF;" >
+  <div>
+      <center>
+        <h1 id="riser" >
+        ریزر کیتو
+      </h1>
     </center>
+      <h2>
+        <center>
+          <p id="bold" >
+                  داستانی که هرگز از آن نامی برده نشد
+
+          </p></center>
+      </h2>
   </div>
   <div>
-    <div id="">
-      <h1 id="grt" >
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        
-            <span class="material-symbols-outlined" id="spa" >
-            done_all
-            </span>
-        
-        RiserCato
-      </h1>
-    </div>
+    <h1>
+      
+    </h1>
+    <center> <p id="farsi" >
+     
+   هزار سال پیش از میلاد مسیح تا کـنون نامی به نام 
+   ریزر 
+   <br>
+   بر سر زبان های مردم نبود 
+   <br>
+    ریزر نامی بود ک از سرزمینی در اعماق برف ها در 
+    <br>
+    گرینلند برمیخاست
+    <br>
+    در زمانی که هیچ کس میل به داشتن معرفت و انسانیت
+    <br>
+    نداشت 
+    <br>
+    شخصی به نام ریزر کیتو با معرفت خود دنیایی
+    <br>
+    ساخت که جهل و خرد در حسرت آن بودند
+    <br>
+    دنیایی بود بی همتا، در مسیری روشن 
+    <br>
+    دنیایی که سراسر کسی به خرید و فروش 
+    <br>
+    گذاشته نمیشد 
+    <br>
+    اورا کمک میرساند
+    <br>
+    زیبارویی که همه در حسرت داشتن او بودند
+    <br>
+    چهره ای دارا بود چون لطافت ماه
+    <br>
+    حادور هایش به زبانی زرین سخن گو
+    <br>
+    دستانه هایش نوم عالم
+    <br>
+    و دهر  ، دیده بر واقع او بود
+    <br>
+    قصد را داشت و قصد اورا
+    <br>
+     کنیه اش بود طاعت 
+     <br>
+     جلیس را عون و عون را مسلک میدانستند
+     <br>
+
+    گیریم ، پیر مردی زمستان های زیادی پشت سر نهاده باشد 
+    <br>
+    چونان که برف بالای سرش اورا کمان کند 
+    <br>
+    از این همه زیستن چو حیوانی چه حاصل ؟
+    <br>
+    سر انجام چونان علفی خشک 
+    <br>
+    بی سودی خوک 
+    مانند
+    تنها زیسته اند و فقط زیسته اند
+    <br>
+    اگر این داستان زنگی من را 
+    <br>
+    توصیف کند 
+    <br>
+    هرگذ برایت نمی‌گفتم
+    <br>
+    بسیاری بدین گونه زیسته اند و بسی نیز
+    <br>
+    بدین گونه خواهند زیست 
+    <br>
+    سر انجام کمال انسانیت در وجود همه
+    <br>
+    خواهد مرد
+    <br>
+    دستی گیریم که دستمان گرفته شود
+    <br>
+    بالی دهیم ک بالمان باز شود
+    <br>
+    کمک کنیم چون سنگ ایستند
+    <br>
+    خاکی شویم تا رشد کنند
+    <br>
+    بیشک شیطان مارا ترک 
+    <br>
+    و طبیعت مارا یاری 
+    <br>
+    و خدا مارا بلند
+    <br>
+    میکند
+    <br>
     
-    <p id="grt">no one is coming to save you</p>
-  </div>
-  
+
+
+    </p>
+         </center>
+      
+      
 </body>
 </html>
