@@ -31,10 +31,14 @@
 }
 @keyframes topop {
   from{
-    filter: blur(100%);
+    scale: 0%;
+    filter: blur(100px);
+    opacity: 0%;
   }
   to{
-    filter: blur(0%);
+    scale: 100%;
+    filter: blur(0px);
+    opacity: 100%;
   }
  }
 
@@ -48,7 +52,8 @@
   padding: 20px;
   margin-bottom: -22px;
   border-radius: 0px 0px 0px 0px ;
-
+  animation-name: topop;
+  animation-duration: 3s;
 }
 
 #farsi{
@@ -57,6 +62,8 @@
   color: #DFF6FF;
   padding: 20px;
   border-radius: 0px 0px 20px 20px;
+  animation-name: topop;
+  animation-duration: 4s;
 }
 
 
@@ -168,4 +175,5 @@
 
     </p>
          </center>
-    
+      
+      
