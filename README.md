@@ -18,9 +18,10 @@
   
   font-family: Alkalami;
   background-color: #DFF6FF;
+  
   padding: 20px;
   color: #256D85;
-  margin-bottom: -20px;
+  margin-bottom: -50px;
   margin-right: 0px;
   margin-left: 0px;
   border-radius: 30px 30px 0px 0px ;
@@ -167,3 +168,4 @@
 
     </p>
          </center>
+    
