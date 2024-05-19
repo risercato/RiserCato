@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Risercato</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Satisfy&display=swap');
@@ -84,7 +83,7 @@
       
     </style>
 </head>
-<body bgcolor="#156" >
+<body style="background-color: #156;">
   <div id="elem" >
     
     <center>
@@ -106,7 +105,7 @@
       </h1>
     </div>
     
-    <p id="grt">popopopopopopopopopopopoop</p>
+    <p id="grt">no one is coming to save you</p>
   </div>
   
 </body>
