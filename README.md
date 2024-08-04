@@ -14,7 +14,7 @@
             margin-left: 10%;
             margin-right: 10%;
             font-family: Creepster;
-            font-size: 75px;
+            font-size: 75%;
             border-radius: 0px 0px 5px 60px;
 
         }
