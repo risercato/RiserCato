@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,7 +42,7 @@
 
     </center>
 </nav>
-<body bgcolor="1a1c24" >
+<body bgcolor="#1a1c24" >
     
 </body>
 </html>
