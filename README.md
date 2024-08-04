@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +14,7 @@
             margin-left: 10%;
             margin-right: 10%;
             font-family: Creepster;
-            font-size: 75%;
+            font-size: 110%;
             border-radius: 0px 0px 5px 60px;
 
         }
